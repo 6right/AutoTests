@@ -57,6 +57,7 @@ namespace CianTest
             var userAva = driver.FindElement(userAvatar);
             userAva.Click();
 
+            Thread.Sleep(1500);
             var myActualId = driver.FindElement(actualId).Text;
 
             Assert.AreEqual(myId, myActualId, "Login is wrong.");   
