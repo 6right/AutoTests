@@ -1,3 +1,3 @@
 C# : CianTest;
-Java : MyFrameWork;
+Java : MyFrameWork (https://demoqa.com/);
 
